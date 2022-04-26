@@ -39,10 +39,6 @@ const timer = {
   },
 };
 
-buttonStart.addEventListener('click', () => {
-  timer.start();
-});
-
 function updateClockface({ days, hours, minutes, seconds }) {
   clockface.textContent = `${days} ${hours} ${minutes} ${seconds} `;
 }
